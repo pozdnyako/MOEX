@@ -3,6 +3,8 @@ from constants import *
 import csv
 from datetime import datetime
 import matplotlib.pyplot as plt
+from scipy.stats import norm
+import numpy as np
 
 fig, ax = plt.subplots(figsize=(15, 7))
 
